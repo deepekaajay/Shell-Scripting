@@ -1,0 +1,8 @@
+1
+find / -name core 2> errors.text 
+2
+find / -name '*conf*' -ls 
+3
+find /usr -user bin -perm 555; 
+4
+find / -atime -7 

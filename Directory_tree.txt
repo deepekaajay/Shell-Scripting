@@ -1,0 +1,64 @@
+
+mkdir a                                                             
+cd a                                                                  
+mkdir b                                                      
+mkdir d                                                    
+cd b                                                                    
+mkdir e                                              
+mkdir f                                               
+mkdir c
+ls 
+cd e
+mkdir v
+mkdir w
+ls
+cd ..                                            
+cd f                                                
+mkdir i                                    
+cd ..                                        
+cd c                                         
+mkdir g                              
+mkdir l                             
+ls                                     
+g  l
+cd g                              
+mkdir h 
+ls                
+cd ..                       
+cd ..                        
+cd ..                          
+ls                                  
+b  d
+cd d                                      
+mkdir m                         
+ls                                    
+m
+cd ..
+ls
+
+1)
+chmod u=rwx, g=rwx, o=rwx a
+chmod 777 a
+2)
+chmod u=rx,g=rx,o=rx d
+chmod 555 d
+3)
+chmod u=rwx,g=rwx,o=w c
+chmod 772 c
+4)
+chmod u=rwx,g=rwx h
+chmod 770 h
+5)
+chmod u=rwx,g=x,o=rwx g
+chmod 717 g
+6)
+chmod u=rwx,g=rwx,o= b
+chmod 770 b
+7)
+chmod u=r,g=rwx,o=rwx a
+chmod 477 a
+
+
+File
+touch xyz a
+chmod 600 xyz

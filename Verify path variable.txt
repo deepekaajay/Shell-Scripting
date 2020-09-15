@@ -1,0 +1,13 @@
+#!/bin/bash
+#my_script 
+echo "Enter name for first directory" 
+read dir_x 
+echo "Enter name for second directory" 
+read dir_y 
+echo "First directory name = $dir_x" 
+echo "Second directory name = $dir_y" 
+mkdir $dir_x 
+mkdir $dir_y 
+cd $dir_x 
+touch file{1..5}.txt 
+cp * /home/deeps/ubuntu/$dir_y 

@@ -1,0 +1,4 @@
+1.
+find  . -type f -size +2M  -exec ls -sh {} \;
+2.
+tar  -cvf  /tmp/archive.tar.gz  /home/file.txt

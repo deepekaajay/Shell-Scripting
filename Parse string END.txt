@@ -1,0 +1,3 @@
+if ['echo $PATH | grep '/usr/bin'']; then 
+echo Found; 
+else echo Not Found; 

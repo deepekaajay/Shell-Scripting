@@ -1,0 +1,1 @@
+find / -iname '*backup' -type d -exec mv {} /exercise/backup \; 

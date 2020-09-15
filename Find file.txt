@@ -1,0 +1,8 @@
+1.
+mkdir    /media/usb-drive
+2.
+mount   /dev/mypendrive  /media/usb-drive
+3.
+mount  | grep   mypendrive
+4.
+mv  /home/Ubuntu/a  /media/mypendrive

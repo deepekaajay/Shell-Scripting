@@ -1,0 +1,20 @@
+1)
+touch test.txt
+2)
+cp test.txt dup_test.txt
+3)
+nano test.txt
+4)
+mv test.txt d
+5)
+mv test.txt williamblakepoem.txt
+6)
+cp williamblakepoem.txt ~/a/b/c
+7)
+rm -r d
+8)
+cp -r ~/a ~/a/b/a_dir.txt
+9)
+head -15 ~/a/test.txt > ~/a/b/e/new_folder.txt
+10)
+tail -15 ~/a/test.txt > ~/a/b/f/new_folder.txt
